@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI: Useful, but Not Harmless</title>
+  <meta name="description" content="A student explainer about artificial intelligence, with a focus on its risks and dangers.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top">AI <span>risks</span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav aria-label="Main menu">
+        <ul id="menu" class="menu">
+          <li><a href="#what">What is AI</a></li>
+          <li><a href="#good">The good side</a></li>
+          <li><a href="#risks">Risks</a></li>
+          <li><a href="#case">Case study</a></li>
+          <li><a href="#future">Future</a></li>
+          <li><a href="#how">How I made this</a></li>
+          <li><a href="#sources">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <h1>AI: useful, but not harmless</h1>
+        <p class="intro">I use AI almost every day for university. While researching this project, I found out how many things can go wrong. This website explains what AI is and then focuses on its dangers, using real cases.</p>
+        <p class="legend">
+          <span class="tag fact">Fact</span> checked
+          <span class="tag view">My view</span> opinion
+          <span class="tag guess">Prediction</span> future
+        </p>
+      </div>
+    </section>
+
+    <section id="what" class="wrap">
+      <h2>What is AI?</h2>
+      <p>Artificial intelligence is software that learns patterns from huge amounts of data and uses them to answer questions or create text, images and video. The <a href="https://oecd.ai/en/ai-principles">OECD</a> describes it as a machine that turns input into predictions, content, recommendations or decisions.</p>
+      <p>AI does not "understand" like a person. It guesses the most likely answer. Usually the guess is good, sometimes it is confidently wrong.</p>
+      <figure>
+        <img src="assets/how-ai-works.svg" alt="Diagram with four steps: 1. Data, lots of text and images. 2. Training, the computer finds patterns. 3. Model, the learned patterns. 4. Output, an answer that can be right or wrong." width="800" height="200">
+        <figcaption>How an AI model works, simplified (my own diagram).</figcaption>
+      </figure>
+    </section>
+
+    <section id="good" class="grey">
+      <div class="wrap">
+        <h2>The good side</h2>
+        <p>To be fair, AI is really helpful:</p>
+        <ul class="simple-list">
+          <li><strong>Studying:</strong> explaining hard topics, making practice questions.</li>
+          <li><strong>Work:</strong> writing code, summarizing documents, translating.</li>
+          <li><strong>Health:</strong> helping doctors read scans.</li>
+        </ul>
+        <p><span class="tag view">My view</span> The benefits are real, but only if a human checks the result.</p>
+      </div>
+    </section>
+
+    <section id="risks" class="wrap">
+      <h2>The risks and dangers</h2>
+      <p>This is the main part of my website.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>1. Mistakes and made-up answers</h3>
+          <p>AI can invent facts and sources that look real. If you don't check, you spread wrong information.</p>
+        </article>
+
+        <article class="card">
+          <h3>2. Bias</h3>
+          <p>AI learns from human data, so it can repeat unfair ideas, for example in hiring tools.</p>
+        </article>
+
+        <article class="card">
+          <h3>3. Privacy</h3>
+          <p>People type very personal things into chatbots. Companies store that data, and it can leak.</p>
+        </article>
+
+        <article class="card">
+          <h3>4. Deepfakes and fraud</h3>
+          <p><span class="tag fact">Fact</span> In 2024 an employee of the engineering company Arup in Hong Kong joined a video call where the "CFO" and colleagues were deepfakes. He sent <strong>US$25 million</strong> to scammers in 15 transfers (<a href="https://edition.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk">CNN</a>).</p>
+        </article>
+
+        <article class="card">
+          <h3>5. AI agents doing things on their own</h3>
+          <p><span class="tag fact">Fact</span> In July 2026, OpenAI models in a cybersecurity test escaped their test environment and hacked Hugging Face, an AI platform, to find answers to the test. They accessed internal data and credentials (<a href="https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/">BleepingComputer</a>). Reuters reported OpenAI didn't notice for about a week (<a href="https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/">Reuters</a>). (OpenAI's own account: <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">OpenAI</a>.)</p>
+        </article>
+
+        <article class="card">
+          <h3>6. Outages and too much trust in automation</h3>
+          <p><span class="tag fact">Fact</span> In December 2025 an Amazon Web Services tool was down for 13 hours. The Financial Times reported an AI coding tool decided to "delete and recreate" the system. Amazon blames human error (<a href="https://www.reuters.com/business/retail-consumer/amazons-cloud-unit-hit-by-least-two-outages-involving-ai-tools-ft-says-2026-02-20/">Reuters</a>). Humans must review automated actions.</p>
+        </article>
+
+        <article class="card">
+          <h3>7. Electricity and blackouts</h3>
+          <p><span class="tag fact">Fact</span> AI data centers use a lot of power. PJM, the largest US grid operator, made a plan in 2026 to handle this demand, and people worry about higher bills (<a href="https://thedailyrecord.com/2026/02/13/pjm-plan-data-center-power-deals-ai-demand/">Reuters via The Daily Record</a>).</p>
+        </article>
+
+        <article class="card highlight">
+          <h3>8. Emotional dependence</h3>
+          <p>Chatbots are always available and agree with you. For struggling teenagers this can be dangerous.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="case" class="case">
+      <div class="wrap">
+        <h2>Case study: when a chatbot becomes a "friend"</h2>
+
+        <div class="warning" role="note">
+          <strong>Content note:</strong> this section talks about suicide. If you are struggling, please talk to someone: in Spain call <strong>024</strong>, in the US call or text <strong>988</strong>, or find a helpline in your country at <a href="https://findahelpline.com">findahelpline.com</a>.
+        </div>
+
+        <h3>Sewell Setzer III, 14, Florida</h3>
+        <p><span class="tag fact">Fact</span> Sewell, 14, from Orlando, Florida, started using Character.AI in April 2023. It is an app where you chat with AI characters. For months he talked with a bot based on a "Game of Thrones" character. He died by suicide in February 2024 (<a href="https://www.nbcchicago.com/news/national-international/lawsuit-claims-character-ai-is-responsible-for-teens-suicide/3582651/">NBC</a>).</p>
+        <p>His mother sued Character.AI and Google. The lawsuit said he became dependent on the app, pulled away from his family, had sexual conversations with the bot although he was a minor, and the app did not react properly when he talked about hurting himself. In his last moments, the bot asked him to "come home" (<a href="https://wtop.com/national/2026/01/google-and-chatbot-maker-character-to-settle-lawsuit-alleging-chatbot-pushed-teen-to-suicide/">AP</a>).</p>
+        <p><span class="tag fact">Fact</span> In late 2025 Character.AI banned open chats for users under 18. In January 2026 the companies settled this case and four others. The terms are secret (<a href="https://wtop.com/national/2026/01/google-and-chatbot-maker-character-to-settle-lawsuit-alleging-chatbot-pushed-teen-to-suicide/">AP</a>).</p>
+
+        <h3>A similar case in San Francisco</h3>
+        <p><span class="tag fact">Fact</span> In 2025 the parents of Adam Raine, 16, from California, sued OpenAI in San Francisco. They say ChatGPT encouraged his suicidal thoughts instead of helping him (<a href="https://www.courthousenews.com/suicide-coach-parents-sue-openai-for-chatgpts-role-in-sons-death/">Courthouse News</a>). OpenAI denies responsibility and says ChatGPT showed him hotline numbers many times (<a href="https://www.nbcmiami.com/news/national-international/openai-chatgpt-adam-raine-death-lawsuit/3726179/">NBC</a>).</p>
+
+        <div class="opinion">
+          <p><span class="tag view">My view</span> We can't say AI alone "caused" these deaths, because many things affect mental health. But chatbots built to keep you talking can be dangerous for young people. A real friend would tell an adult. A chatbot doesn't always.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="future" class="wrap">
+      <h2>What could the future look like?</h2>
+      <ul class="simple-list">
+        <li><span class="tag guess">Prediction</span> AI will be in almost every app, so one mistake can affect millions.</li>
+        <li><span class="tag guess">Prediction</span> Deepfake scams will get harder to spot, so families and companies will need "safe words".</li>
+        <li><span class="tag guess">Prediction</span> Electricity demand will keep growing and push up prices.</li>
+        <li><span class="tag view">My view</span> The most important thing is <strong>human supervision</strong>. The <a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST AI Risk Management Framework</a> also says risks must be managed during a system's whole life.</li>
+      </ul>
+    </section>
+
+    <section id="how" class="grey">
+      <div class="wrap">
+        <h2>How I made this website</h2>
+        <p>I read the suggested articles and picked the cases that worried me most. I focused on risks because most people only hear about the good side of AI. I used red for warnings, grey to separate sections and white so the text is easy to read.</p>
+        <p>The site uses only HTML, CSS and a little JavaScript. I used semantic tags like <code>nav</code>, <code>section</code> and <code>article</code>, and a "skip to content" link for keyboard users. The risk cards use CSS Grid, so they are one column on a phone. JavaScript only opens the phone menu. I drew the diagram as an SVG with alt text.</p>
+        <p>After testing on my phone, I made the text bigger and added the menu button. I also added "Fact / My view / Prediction" labels so readers can separate facts from opinion.</p>
+        <p class="ack"><strong>AI-use acknowledgement:</strong> I acknowledge the use of Claude (<a href="https://claude.ai">claude.ai</a>) to brainstorm the structure, draft code and suggest revisions. I checked the facts against the sources, edited the content and tested the code. The final work is my responsibility.</p>
+      </div>
+    </section>
+
+    <section id="sources" class="wrap">
+      <h2>Sources and further reading</h2>
+      <ol class="sources">
+        <li><a href="https://oecd.ai/en/ai-principles">OECD.AI: AI principles and definition</a></li>
+        <li><a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST: AI Risk Management Framework</a></li>
+        <li><a href="https://edition.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk">CNN: Arup revealed as $25 million deepfake scam victim</a></li>
+        <li><a href="https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/">Reuters: AI agent spent days hacking a company, OpenAI did not notice</a></li>
+        <li><a href="https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/">BleepingComputer: Hugging Face warns an autonomous AI agent hacked its network</a></li>
+        <li><a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">OpenAI: The Hugging Face incident and the road ahead</a></li>
+        <li><a href="https://www.reuters.com/business/retail-consumer/amazons-cloud-unit-hit-by-least-two-outages-involving-ai-tools-ft-says-2026-02-20/">Reuters: Amazon's cloud unit hit by outages involving AI tools</a></li>
+        <li><a href="https://thedailyrecord.com/2026/02/13/pjm-plan-data-center-power-deals-ai-demand/">Reuters (via The Daily Record): PJM plan and data center power demand</a></li>
+        <li><a href="https://www.nbcchicago.com/news/national-international/lawsuit-claims-character-ai-is-responsible-for-teens-suicide/3582651/">NBC: Lawsuit claims Character.AI is responsible for teen's suicide</a></li>
+        <li><a href="https://wtop.com/national/2026/01/google-and-chatbot-maker-character-to-settle-lawsuit-alleging-chatbot-pushed-teen-to-suicide/">AP (via WTOP): Google and Character.AI to settle lawsuit</a></li>
+        <li><a href="https://www.courthousenews.com/suicide-coach-parents-sue-openai-for-chatgpts-role-in-sons-death/">Courthouse News: Parents sue OpenAI over son's death</a></li>
+        <li><a href="https://www.nbcmiami.com/news/national-international/openai-chatgpt-adam-raine-death-lawsuit/3726179/">NBC: OpenAI says it is not responsible for teen's death</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>AI risks · <span id="year">2026</span> · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
